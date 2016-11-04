@@ -7,7 +7,7 @@ Documentation    Demonstrate Selenium2Library by googling
 
 *** Variables ***
 ${HOMEPAGE}    http://www.google.fi
-${BROWSER}     firefox
+${BROWSER}     chrome
 
 *** Test Cases ***
 Google devops and find eficode
@@ -18,7 +18,7 @@ Google deveo and find its website
     [Tags]    deveo    eficode
     Google and check results    deveo    deveo.com
 
-Google deveo and find its website
+Google robot framework and find its website
     [Tags]    robotframework
     Google and check results    robot framework    robotframework.org
 
